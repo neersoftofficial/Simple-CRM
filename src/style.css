@@ -1,0 +1,26 @@
+:root{
+--bg:#f7f8fb;
+--card:#ffffff;
+--accent:#2b6cb0;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;background:var(--bg);margin:0;padding:24px;color:#1f2937}
+.container{max-width:1100px;margin:0 auto}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+.grid{display:grid;grid-template-columns:1fr 360px;gap:16px}
+.lead-row{display:flex;justify-content:space-between;align-items:center;padding:10px;border-bottom:1px solid #eef2f7}
+.lead-row:last-child{border-bottom:none}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;font-weight:600}
+.badge.green{background:#ecfdf5;color:#065f46;border:1px solid #34d399}
+.badge.red{background:#fff1f2;color:#9f1239;border:1px solid #fb7185}
+.badge.grey{background:#f8fafc;color:#475569;border:1px solid #e2e8f0}
+.badge.orange{background:#fff7ed;color:#92400e;border:1px solid #f59e0b}
+.small{font-size:12px;color:#6b7280}
+.list{max-height:560px;overflow:auto}
+.form-row{margin-bottom:10px}
+.input,textarea,select{width:100%;padding:8px;border-radius:6px;border:1px solid #e6eef6}
+.button{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+.tag{display:inline-block;padding:4px 8px;border-radius:6px;background:#eef2ff;margin-right:6px;margin-bottom:6px;font-size:12px}
+.team-list{display:flex;flex-wrap:wrap;gap:8px}
+.small-muted{font-size:13px;color:#6b7280}
